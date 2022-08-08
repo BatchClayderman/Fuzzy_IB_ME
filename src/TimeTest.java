@@ -13,7 +13,7 @@ public class TimeTest {
         PARS pars;
         Element[] S_A, S_B, P_A, P_B, E_i, e_i, C_1_i, C_2_i, C_3_i, C_4_i, C_5_i;
         Element[][] temp = new Element[0][];
-        Element M, C_0, C_1, C_2;
+        Element M, C_0, C_1, C_2, C_3, C_4;
         List<Object> list = null;
         long runTime;
         Timer timer = new Timer();
@@ -73,15 +73,16 @@ public class TimeTest {
             runTime = runTime / timeToTest;
             System.out.println("  [Enc] Run Time = " + runTime + " us");
 
-
             C_0 = ((Element) list.get(0)).getImmutable();
             C_1 = ((Element) list.get(1)).getImmutable();
             C_2 = ((Element) list.get(2)).getImmutable();
-            C_1_i = (Element[]) list.get(3);
-            C_2_i = (Element[]) list.get(4);
-            C_3_i = (Element[]) list.get(5);
-            C_4_i = (Element[]) list.get(6);
-            C_5_i = (Element[]) list.get(7);
+            C_3 = ((Element) list.get(3)).getImmutable(); // revised
+            C_4 = ((Element) list.get(4)).getImmutable(); // revised
+            C_1_i = (Element[]) list.get(5); // revised
+            C_2_i = (Element[]) list.get(6); // revised
+            C_3_i = (Element[]) list.get(7); // revised
+            C_4_i = (Element[]) list.get(8); // revised
+            C_5_i = (Element[]) list.get(9); // revised
 
             System.out.println("  [Enc] C_0 Size = " + getObjectSize(C_0) + " bytes" + ", C_1 Size = " + getObjectSize(C_1) + " bytes" +
 //                    ", C_2 Size = " + getObjectSize(C_2) + " bytes" +
@@ -90,7 +91,7 @@ public class TimeTest {
             runTime = 0;
             for (int i = 0; i < timeToTest; i++) {
                 timer.start(0);
-                Dec.dec(d, P_A, S_A, P_B, S_B, pars, Dd, Dd_prime, C_0, C_1, C_2, C_1_i, C_2_i, C_3_i, C_4_i, C_5_i);
+                Dec.dec(d, P_A, S_A, P_B, S_B, pars, Dd, Dd_prime, C_0, C_1, C_2, C_3, C_4, C_1_i, C_2_i, C_3_i, C_4_i, C_5_i);
                 runTime += timer.stop(0);
             }
             runTime = runTime / timeToTest;
@@ -154,11 +155,13 @@ public class TimeTest {
             C_0 = ((Element) list.get(0)).getImmutable();
             C_1 = ((Element) list.get(1)).getImmutable();
             C_2 = ((Element) list.get(2)).getImmutable();
-            C_1_i = (Element[]) list.get(3);
-            C_2_i = (Element[]) list.get(4);
-            C_3_i = (Element[]) list.get(5);
-            C_4_i = (Element[]) list.get(6);
-            C_5_i = (Element[]) list.get(7);
+            C_3 = ((Element) list.get(3)).getImmutable(); // revised
+            C_4 = ((Element) list.get(4)).getImmutable(); // revised
+            C_1_i = (Element[]) list.get(5); // revised
+            C_2_i = (Element[]) list.get(6); // revised
+            C_3_i = (Element[]) list.get(7); // revised
+            C_4_i = (Element[]) list.get(8); // revised
+            C_5_i = (Element[]) list.get(9); // revised
 
             System.out.println("  [Enc] C_0 Size = " + getObjectSize(C_0) + " bytes" + ", C_1 Size = " + getObjectSize(C_1) + " bytes" +
 //                    ", C_2 Size = " + getObjectSize(C_2) + " bytes" +
@@ -167,7 +170,7 @@ public class TimeTest {
             runTime = 0;
             for (int i = 0; i < timeToTest; i++) {
                 timer.start(0);
-                Dec.dec(d, P_A, S_A, P_B, S_B, pars, Dd, Dd_prime, C_0, C_1, C_2, C_1_i, C_2_i, C_3_i, C_4_i, C_5_i);  // Revised
+                Dec.dec(d, P_A, S_A, P_B, S_B, pars, Dd, Dd_prime, C_0, C_1, C_2, C_3, C_4, C_1_i, C_2_i, C_3_i, C_4_i, C_5_i);  // Revised
                 runTime += timer.stop(0);
             }
             runTime = runTime / timeToTest;
