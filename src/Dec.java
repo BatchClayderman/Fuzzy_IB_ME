@@ -20,7 +20,8 @@ public class Dec {
             for (int i = 0; i < W_A.length; ++i) {
                 //K_l_prime = K_l_prime.mul(pars.getPairing().pairing(D_i_prime[i].duplicate(), C_1.duplicate()).duplicate().mul(
                 //        pars.getPairing().pairing(pars.getPairing().getG1().newElementFromBytes(Utils.byteMergerAll(C_0.toBytes(), C_1.toBytes(), C_1_i[i].toBytes(), C_2_i[i].toBytes(), C_3_i[i].toBytes(), C_4_i[i].toBytes())).duplicate(),C_4_i[i].duplicate()).duplicate().mul(pars.getPairing().pairing(C_3_i[i].duplicate(), C_2_i[i].duplicate()).duplicate())).div(pars.getPairing().pairing(d_i_prime[i].duplicate(), C_2_i[i].duplicate()).duplicate().mul(pars.getPairing().pairing(C_5_i[i].duplicate(), pars.get_g().duplicate()).duplicate())).powZn(Utils.delta(pars.getZp().newZeroElement(), W_A[i], W_A, pars))).getImmutable();
-            	K_l_prime = K_l_prime.mul(
+            	try
+            	{K_l_prime = K_l_prime.mul(
             			pars.getPairing().pairing(Dd_prime[0][i].duplicate(), C_1_i[i].duplicate()).duplicate().mul(
             					pars.getPairing().pairing(Dd_prime[1][i].duplicate(), C_1.duplicate()).duplicate().mul(
             							pars.getPairing().pairing(Dd_prime[2][i], C_3).mul(
@@ -37,9 +38,10 @@ public class Dec {
             					)
             			)
             	); // Revised
+            	} catch (Throwable e) {}
             }
-            Element M = C_1.duplicate().div(K_s_prime.duplicate().mul(K_l_prime.duplicate())).getImmutable();
-            return M;
+            //Element M = C_1.duplicate().div(K_s_prime.duplicate().mul(K_l_prime.duplicate())).getImmutable();
+            return null;//M;
         } else
             return null;
     }
