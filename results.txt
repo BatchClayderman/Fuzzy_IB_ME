@@ -1,165 +1,165 @@
 ---------------------------- d = 10 ----------------------------
   ------------------------ [n = 10] ------------------------  
-  [EKGen] Run Time = 645090 us
+  [EKGen] Run Time = 644283 us
   [EKGen] E_i Size = 414720 bytes, e_i Size = 414720 bytes
-  [DKGen] Run Time = 2626085 us
+  [DKGen] Run Time = 2688810 us
   [DKGen] Dd Size = 2073600 bytes, Dd_prime Size = 2073600 bytes
-  [Enc] Run Time = 1793235 us
+  [Enc] Run Time = 1831183 us
   [Enc] C_0 Size = 412328 bytes, C_1 Size = 411640 bytes, C_2 Size = 411640 bytes, C_3 Size = 411640 bytes, C_4 Size = 411640 bytes, C_1_i Size = 414720 bytes, C_2_i Size = 414720 bytes, C_3_i Size = 414720 bytes, C_4_i Size = 414720 bytes, C_5_i Size = 414720 bytes
-  [Dec] Run Time = 171126 us
+  [Dec] Run Time = 185315 us
   ------------------------ [n = 20] ------------------------  
-  [EKGen] Run Time = 2392216 us
+  [EKGen] Run Time = 2716538 us
   [EKGen] E_i Size = 418120 bytes, e_i Size = 418120 bytes
-  [DKGen] Run Time = 10076546 us
+  [DKGen] Run Time = 11212418 us
   [DKGen] Dd Size = 2090600 bytes, Dd_prime Size = 2090600 bytes
-  [Enc] Run Time = 5925394 us
+  [Enc] Run Time = 6145049 us
   [Enc] C_0 Size = 412328 bytes, C_1 Size = 411640 bytes, C_2 Size = 411640 bytes, C_3 Size = 411640 bytes, C_4 Size = 411640 bytes, C_1_i Size = 418120 bytes, C_2_i Size = 418120 bytes, C_3_i Size = 414720 bytes, C_4_i Size = 414720 bytes, C_5_i Size = 414720 bytes
-  [Dec] Run Time = 182788 us
+  [Dec] Run Time = 192686 us
   ------------------------ [n = 30] ------------------------  
-  [EKGen] Run Time = 5993775 us
-  [EKGen] E_i Size = 421520 bytes, e_i Size = 421520 bytes
-  [DKGen] Run Time = 29246709 us
-  [DKGen] Dd Size = 2107600 bytes, Dd_prime Size = 2107600 bytes
-  [Enc] Run Time = 16155544 us
-  [Enc] C_0 Size = 412328 bytes, C_1 Size = 411640 bytes, C_2 Size = 411640 bytes, C_3 Size = 411640 bytes, C_4 Size = 411640 bytes, C_1_i Size = 421520 bytes, C_2_i Size = 421520 bytes, C_3_i Size = 414720 bytes, C_4_i Size = 414720 bytes, C_5_i Size = 414720 bytes
-  [Dec] Run Time = 269351 us
+  [EKGen] Run Time = 6035011 us
+  [EKGen] E_i Size = 422432 bytes, e_i Size = 422432 bytes
+  [DKGen] Run Time = 24475566 us
+  [DKGen] Dd Size = 2112320 bytes, Dd_prime Size = 2112120 bytes
+  [Enc] Run Time = 13368327 us
+  [Enc] C_0 Size = 413232 bytes, C_1 Size = 412528 bytes, C_2 Size = 412528 bytes, C_3 Size = 412528 bytes, C_4 Size = 412528 bytes, C_1_i Size = 422440 bytes, C_2_i Size = 422416 bytes, C_3_i Size = 415616 bytes, C_4_i Size = 415616 bytes, C_5_i Size = 415616 bytes
+  [Dec] Run Time = 193769 us
   ------------------------ [n = 40] ------------------------  
-  [EKGen] Run Time = 13974585 us
+  [EKGen] Run Time = 10854061 us
   [EKGen] E_i Size = 424920 bytes, e_i Size = 424920 bytes
-  [DKGen] Run Time = 56254792 us
+  [DKGen] Run Time = 44325825 us
   [DKGen] Dd Size = 2124600 bytes, Dd_prime Size = 2124600 bytes
-  [Enc] Run Time = 28986186 us
-  [Enc] C_0 Size = 412328 bytes, C_1 Size = 411640 bytes, C_2 Size = 411640 bytes, C_3 Size = 411640 bytes, C_4 Size = 411640 bytes, C_1_i Size = 424920 bytes, C_2_i Size = 424920 bytes, C_3_i Size = 414720 bytes, C_4_i Size = 414720 bytes, C_5_i Size = 414720 bytes
-  [Dec] Run Time = 238539 us
+  [Enc] Run Time = 23894999 us
+  [Enc] C_0 Size = 412336 bytes, C_1 Size = 411640 bytes, C_2 Size = 411640 bytes, C_3 Size = 411640 bytes, C_4 Size = 411640 bytes, C_1_i Size = 424920 bytes, C_2_i Size = 424920 bytes, C_3_i Size = 414720 bytes, C_4_i Size = 414720 bytes, C_5_i Size = 414720 bytes
+  [Dec] Run Time = 202935 us
   ------------------------ [n = 50] ------------------------  
-  [EKGen] Run Time = 21670024 us
+  [EKGen] Run Time = 17146840 us
   [EKGen] E_i Size = 428320 bytes, e_i Size = 428320 bytes
-  [DKGen] Run Time = 76320337 us
+  [DKGen] Run Time = 70465525 us
   [DKGen] Dd Size = 2141600 bytes, Dd_prime Size = 2141600 bytes
-  [Enc] Run Time = 37938296 us
+  [Enc] Run Time = 38596362 us
   [Enc] C_0 Size = 412328 bytes, C_1 Size = 411640 bytes, C_2 Size = 411640 bytes, C_3 Size = 411640 bytes, C_4 Size = 411640 bytes, C_1_i Size = 428320 bytes, C_2_i Size = 428320 bytes, C_3_i Size = 414720 bytes, C_4_i Size = 414720 bytes, C_5_i Size = 414720 bytes
-  [Dec] Run Time = 198451 us
+  [Dec] Run Time = 213884 us
   ------------------------ [n = 60] ------------------------  
-  [EKGen] Run Time = 24986970 us
+  [EKGen] Run Time = 26058296 us
   [EKGen] E_i Size = 431720 bytes, e_i Size = 431720 bytes
-  [DKGen] Run Time = 115169986 us
+  [DKGen] Run Time = 104503337 us
   [DKGen] Dd Size = 2158600 bytes, Dd_prime Size = 2158600 bytes
-  [Enc] Run Time = 56646568 us
+  [Enc] Run Time = 54262363 us
   [Enc] C_0 Size = 412328 bytes, C_1 Size = 411640 bytes, C_2 Size = 411640 bytes, C_3 Size = 411640 bytes, C_4 Size = 411640 bytes, C_1_i Size = 431720 bytes, C_2_i Size = 431720 bytes, C_3_i Size = 414720 bytes, C_4_i Size = 414720 bytes, C_5_i Size = 414720 bytes
-  [Dec] Run Time = 178461 us
+  [Dec] Run Time = 217639 us
 ---------------------------- d = 20 ----------------------------
   ------------------------ [n = 20] ------------------------  
-  [EKGen] Run Time = 2354677 us
-  [EKGen] E_i Size = 418120 bytes, e_i Size = 418120 bytes
-  [DKGen] Run Time = 9740071 us
-  [DKGen] Dd Size = 2090600 bytes, Dd_prime Size = 2090600 bytes
-  [Enc] Run Time = 6868807 us
-  [Enc] C_0 Size = 412328 bytes, C_1 Size = 411640 bytes, C_2 Size = 411640 bytes, C_3 Size = 411640 bytes, C_4 Size = 411640 bytes, C_1_i Size = 418120 bytes, C_2_i Size = 418120 bytes, C_3_i Size = 418120 bytes, C_4_i Size = 418120 bytes, C_5_i Size = 418120 bytes
-  [Dec] Run Time = 353402 us
+  [EKGen] Run Time = 2524070 us
+  [EKGen] E_i Size = 418032 bytes, e_i Size = 418032 bytes
+  [DKGen] Run Time = 10222680 us
+  [DKGen] Dd Size = 2090160 bytes, Dd_prime Size = 2090160 bytes
+  [Enc] Run Time = 7410192 us
+  [Enc] C_0 Size = 412240 bytes, C_1 Size = 411552 bytes, C_2 Size = 411552 bytes, C_3 Size = 411552 bytes, C_4 Size = 411552 bytes, C_1_i Size = 418032 bytes, C_2_i Size = 418032 bytes, C_3_i Size = 418032 bytes, C_4_i Size = 418032 bytes, C_5_i Size = 418032 bytes
+  [Dec] Run Time = 345475 us
   ------------------------ [n = 30] ------------------------  
-  [EKGen] Run Time = 5591046 us
-  [EKGen] E_i Size = 421520 bytes, e_i Size = 421520 bytes
-  [DKGen] Run Time = 23183405 us
-  [DKGen] Dd Size = 2107600 bytes, Dd_prime Size = 2107600 bytes
-  [Enc] Run Time = 14782902 us
-  [Enc] C_0 Size = 412328 bytes, C_1 Size = 411640 bytes, C_2 Size = 411640 bytes, C_3 Size = 411640 bytes, C_4 Size = 411640 bytes, C_1_i Size = 421520 bytes, C_2_i Size = 421520 bytes, C_3_i Size = 418120 bytes, C_4_i Size = 418120 bytes, C_5_i Size = 418120 bytes
-  [Dec] Run Time = 382040 us
+  [EKGen] Run Time = 5883733 us
+  [EKGen] E_i Size = 421344 bytes, e_i Size = 421344 bytes
+  [DKGen] Run Time = 24210681 us
+  [DKGen] Dd Size = 2106720 bytes, Dd_prime Size = 2106720 bytes
+  [Enc] Run Time = 15612843 us
+  [Enc] C_0 Size = 412160 bytes, C_1 Size = 411464 bytes, C_2 Size = 411464 bytes, C_3 Size = 411464 bytes, C_4 Size = 411464 bytes, C_1_i Size = 421344 bytes, C_2_i Size = 421344 bytes, C_3_i Size = 417944 bytes, C_4_i Size = 417944 bytes, C_5_i Size = 417944 bytes
+  [Dec] Run Time = 356528 us
   ------------------------ [n = 40] ------------------------  
-  [EKGen] Run Time = 10514521 us
-  [EKGen] E_i Size = 424920 bytes, e_i Size = 424920 bytes
-  [DKGen] Run Time = 48947653 us
-  [DKGen] Dd Size = 2124600 bytes, Dd_prime Size = 2124600 bytes
-  [Enc] Run Time = 32169966 us
-  [Enc] C_0 Size = 412328 bytes, C_1 Size = 411640 bytes, C_2 Size = 411640 bytes, C_3 Size = 411640 bytes, C_4 Size = 411640 bytes, C_1_i Size = 424920 bytes, C_2_i Size = 424920 bytes, C_3_i Size = 418120 bytes, C_4_i Size = 418120 bytes, C_5_i Size = 418120 bytes
-  [Dec] Run Time = 483447 us
+  [EKGen] Run Time = 10881791 us
+  [EKGen] E_i Size = 424744 bytes, e_i Size = 424744 bytes
+  [DKGen] Run Time = 44215457 us
+  [DKGen] Dd Size = 2123720 bytes, Dd_prime Size = 2123720 bytes
+  [Enc] Run Time = 26542013 us
+  [Enc] C_0 Size = 412152 bytes, C_1 Size = 411464 bytes, C_2 Size = 411464 bytes, C_3 Size = 411464 bytes, C_4 Size = 411464 bytes, C_1_i Size = 424744 bytes, C_2_i Size = 424744 bytes, C_3_i Size = 417944 bytes, C_4_i Size = 417944 bytes, C_5_i Size = 417944 bytes
+  [Dec] Run Time = 369961 us
   ------------------------ [n = 50] ------------------------  
-  [EKGen] Run Time = 20962964 us
-  [EKGen] E_i Size = 428320 bytes, e_i Size = 428320 bytes
-  [DKGen] Run Time = 84360103 us
-  [DKGen] Dd Size = 2141600 bytes, Dd_prime Size = 2141600 bytes
-  [Enc] Run Time = 48646539 us
-  [Enc] C_0 Size = 412328 bytes, C_1 Size = 411640 bytes, C_2 Size = 411640 bytes, C_3 Size = 411640 bytes, C_4 Size = 411640 bytes, C_1_i Size = 428320 bytes, C_2_i Size = 428320 bytes, C_3_i Size = 418120 bytes, C_4_i Size = 418120 bytes, C_5_i Size = 418120 bytes
-  [Dec] Run Time = 402494 us
+  [EKGen] Run Time = 17439670 us
+  [EKGen] E_i Size = 428144 bytes, e_i Size = 428144 bytes
+  [DKGen] Run Time = 70824194 us
+  [DKGen] Dd Size = 2140720 bytes, Dd_prime Size = 2140720 bytes
+  [Enc] Run Time = 40971393 us
+  [Enc] C_0 Size = 412152 bytes, C_1 Size = 411464 bytes, C_2 Size = 411464 bytes, C_3 Size = 411464 bytes, C_4 Size = 411464 bytes, C_1_i Size = 428144 bytes, C_2_i Size = 428144 bytes, C_3_i Size = 417944 bytes, C_4_i Size = 417944 bytes, C_5_i Size = 417944 bytes
+  [Dec] Run Time = 372254 us
   ------------------------ [n = 60] ------------------------  
-  [EKGen] Run Time = 30792241 us
-  [EKGen] E_i Size = 431720 bytes, e_i Size = 431720 bytes
-  [DKGen] Run Time = 121457113 us
-  [DKGen] Dd Size = 2158600 bytes, Dd_prime Size = 2158600 bytes
-  [Enc] Run Time = 70577376 us
-  [Enc] C_0 Size = 412328 bytes, C_1 Size = 411640 bytes, C_2 Size = 411640 bytes, C_3 Size = 411640 bytes, C_4 Size = 411640 bytes, C_1_i Size = 431720 bytes, C_2_i Size = 431720 bytes, C_3_i Size = 418120 bytes, C_4_i Size = 418120 bytes, C_5_i Size = 418120 bytes
-  [Dec] Run Time = 441916 us
+  [EKGen] Run Time = 25304631 us
+  [EKGen] E_i Size = 431544 bytes, e_i Size = 431544 bytes
+  [DKGen] Run Time = 105267017 us
+  [DKGen] Dd Size = 2157720 bytes, Dd_prime Size = 2157720 bytes
+  [Enc] Run Time = 58157143 us
+  [Enc] C_0 Size = 412152 bytes, C_1 Size = 411464 bytes, C_2 Size = 411464 bytes, C_3 Size = 411464 bytes, C_4 Size = 411464 bytes, C_1_i Size = 431544 bytes, C_2_i Size = 431544 bytes, C_3_i Size = 417944 bytes, C_4_i Size = 417944 bytes, C_5_i Size = 417944 bytes
+  [Dec] Run Time = 382833 us
 ---------------------------- d = 30 ----------------------------
   ------------------------ [n = 30] ------------------------  
-  [EKGen] Run Time = 7023665 us
-  [EKGen] E_i Size = 421520 bytes, e_i Size = 421520 bytes
-  [DKGen] Run Time = 29916614 us
-  [DKGen] Dd Size = 2107600 bytes, Dd_prime Size = 2107600 bytes
-  [Enc] Run Time = 21656592 us
-  [Enc] C_0 Size = 412328 bytes, C_1 Size = 411640 bytes, C_2 Size = 411640 bytes, C_3 Size = 411640 bytes, C_4 Size = 411640 bytes, C_1_i Size = 421520 bytes, C_2_i Size = 421520 bytes, C_3_i Size = 421520 bytes, C_4_i Size = 421520 bytes, C_5_i Size = 421520 bytes
-  [Dec] Run Time = 727062 us
+  [EKGen] Run Time = 6111194 us
+  [EKGen] E_i Size = 421344 bytes, e_i Size = 421344 bytes
+  [DKGen] Run Time = 25523507 us
+  [DKGen] Dd Size = 2106720 bytes, Dd_prime Size = 2106720 bytes
+  [Enc] Run Time = 18121558 us
+  [Enc] C_0 Size = 412152 bytes, C_1 Size = 411464 bytes, C_2 Size = 411464 bytes, C_3 Size = 411464 bytes, C_4 Size = 411464 bytes, C_1_i Size = 421344 bytes, C_2_i Size = 421344 bytes, C_3_i Size = 421344 bytes, C_4_i Size = 421344 bytes, C_5_i Size = 421344 bytes
+  [Dec] Run Time = 582573 us
   ------------------------ [n = 40] ------------------------  
-  [EKGen] Run Time = 13521540 us
-  [EKGen] E_i Size = 424832 bytes, e_i Size = 424832 bytes
-  [DKGen] Run Time = 55619439 us
-  [DKGen] Dd Size = 2124160 bytes, Dd_prime Size = 2124160 bytes
-  [Enc] Run Time = 36256967 us
-  [Enc] C_0 Size = 412240 bytes, C_1 Size = 411552 bytes, C_2 Size = 411552 bytes, C_3 Size = 411552 bytes, C_4 Size = 411552 bytes, C_1_i Size = 424832 bytes, C_2_i Size = 424832 bytes, C_3_i Size = 421432 bytes, C_4_i Size = 421432 bytes, C_5_i Size = 421432 bytes
-  [Dec] Run Time = 628349 us
+  [EKGen] Run Time = 11076617 us
+  [EKGen] E_i Size = 424744 bytes, e_i Size = 424744 bytes
+  [DKGen] Run Time = 45422761 us
+  [DKGen] Dd Size = 2123720 bytes, Dd_prime Size = 2123720 bytes
+  [Enc] Run Time = 30310158 us
+  [Enc] C_0 Size = 412152 bytes, C_1 Size = 411464 bytes, C_2 Size = 411464 bytes, C_3 Size = 411464 bytes, C_4 Size = 411464 bytes, C_1_i Size = 424744 bytes, C_2_i Size = 424744 bytes, C_3_i Size = 421344 bytes, C_4_i Size = 421344 bytes, C_5_i Size = 421344 bytes
+  [Dec] Run Time = 599637 us
   ------------------------ [n = 50] ------------------------  
-  [EKGen] Run Time = 22630634 us
-  [EKGen] E_i Size = 428144 bytes, e_i Size = 428144 bytes
-  [DKGen] Run Time = 69988976 us
-  [DKGen] Dd Size = 2140720 bytes, Dd_prime Size = 2140720 bytes
-  [Enc] Run Time = 43456498 us
-  [Enc] C_0 Size = 412152 bytes, C_1 Size = 411464 bytes, C_2 Size = 411464 bytes, C_3 Size = 411464 bytes, C_4 Size = 411464 bytes, C_1_i Size = 428144 bytes, C_2_i Size = 428144 bytes, C_3_i Size = 421344 bytes, C_4_i Size = 421344 bytes, C_5_i Size = 421344 bytes
-  [Dec] Run Time = 561298 us
+  [EKGen] Run Time = 18101899 us
+  [EKGen] E_i Size = 431600 bytes, e_i Size = 431664 bytes
+  [DKGen] Run Time = 73223833 us
+  [DKGen] Dd Size = 2158200 bytes, Dd_prime Size = 2158240 bytes
+  [Enc] Run Time = 46010734 us
+  [Enc] C_0 Size = 415512 bytes, C_1 Size = 414808 bytes, C_2 Size = 414808 bytes, C_3 Size = 414808 bytes, C_4 Size = 414808 bytes, C_1_i Size = 431656 bytes, C_2_i Size = 431648 bytes, C_3_i Size = 424776 bytes, C_4_i Size = 424832 bytes, C_5_i Size = 424776 bytes
+  [Dec] Run Time = 621617 us
   ------------------------ [n = 60] ------------------------  
-  [EKGen] Run Time = 24746623 us
+  [EKGen] Run Time = 25765555 us
   [EKGen] E_i Size = 431544 bytes, e_i Size = 431544 bytes
-  [DKGen] Run Time = 100086237 us
+  [DKGen] Run Time = 103567524 us
   [DKGen] Dd Size = 2157720 bytes, Dd_prime Size = 2157720 bytes
-  [Enc] Run Time = 60366267 us
+  [Enc] Run Time = 63113216 us
   [Enc] C_0 Size = 412160 bytes, C_1 Size = 411464 bytes, C_2 Size = 411464 bytes, C_3 Size = 411464 bytes, C_4 Size = 411464 bytes, C_1_i Size = 431544 bytes, C_2_i Size = 431544 bytes, C_3_i Size = 421344 bytes, C_4_i Size = 421344 bytes, C_5_i Size = 421344 bytes
-  [Dec] Run Time = 578987 us
+  [Dec] Run Time = 642821 us
 ---------------------------- d = 40 ----------------------------
   ------------------------ [n = 40] ------------------------  
-  [EKGen] Run Time = 10722866 us
+  [EKGen] Run Time = 10837019 us
   [EKGen] E_i Size = 424744 bytes, e_i Size = 424744 bytes
-  [DKGen] Run Time = 54562908 us
+  [DKGen] Run Time = 44081125 us
   [DKGen] Dd Size = 2123720 bytes, Dd_prime Size = 2123720 bytes
-  [Enc] Run Time = 39911578 us
-  [Enc] C_0 Size = 412160 bytes, C_1 Size = 411464 bytes, C_2 Size = 411464 bytes, C_3 Size = 411464 bytes, C_4 Size = 411464 bytes, C_1_i Size = 424744 bytes, C_2_i Size = 424744 bytes, C_3_i Size = 424744 bytes, C_4_i Size = 424744 bytes, C_5_i Size = 424744 bytes
-  [Dec] Run Time = 943585 us
+  [Enc] Run Time = 32301905 us
+  [Enc] C_0 Size = 412152 bytes, C_1 Size = 411464 bytes, C_2 Size = 411464 bytes, C_3 Size = 411464 bytes, C_4 Size = 411464 bytes, C_1_i Size = 424744 bytes, C_2_i Size = 424744 bytes, C_3_i Size = 424744 bytes, C_4_i Size = 424744 bytes, C_5_i Size = 424744 bytes
+  [Dec] Run Time = 772633 us
   ------------------------ [n = 50] ------------------------  
-  [EKGen] Run Time = 22568753 us
-  [EKGen] E_i Size = 432520 bytes, e_i Size = 432560 bytes
-  [DKGen] Run Time = 90168034 us
-  [DKGen] Dd Size = 2162680 bytes, Dd_prime Size = 2162480 bytes
-  [Enc] Run Time = 60645912 us
-  [Enc] C_0 Size = 416336 bytes, C_1 Size = 415632 bytes, C_2 Size = 415632 bytes, C_3 Size = 415640 bytes, C_4 Size = 415640 bytes, C_1_i Size = 432464 bytes, C_2_i Size = 432544 bytes, C_3_i Size = 429088 bytes, C_4_i Size = 429040 bytes, C_5_i Size = 429112 bytes
-  [Dec] Run Time = 990369 us
+  [EKGen] Run Time = 17450220 us
+  [EKGen] E_i Size = 428144 bytes, e_i Size = 428144 bytes
+  [DKGen] Run Time = 70879066 us
+  [DKGen] Dd Size = 2140720 bytes, Dd_prime Size = 2140720 bytes
+  [Enc] Run Time = 48639268 us
+  [Enc] C_0 Size = 412152 bytes, C_1 Size = 411464 bytes, C_2 Size = 411464 bytes, C_3 Size = 411464 bytes, C_4 Size = 411464 bytes, C_1_i Size = 428144 bytes, C_2_i Size = 428144 bytes, C_3_i Size = 424744 bytes, C_4_i Size = 424744 bytes, C_5_i Size = 424744 bytes
+  [Dec] Run Time = 772874 us
   ------------------------ [n = 60] ------------------------  
-  [EKGen] Run Time = 31195267 us
+  [EKGen] Run Time = 26199319 us
   [EKGen] E_i Size = 431544 bytes, e_i Size = 431544 bytes
-  [DKGen] Run Time = 125895586 us
+  [DKGen] Run Time = 105191895 us
   [DKGen] Dd Size = 2157720 bytes, Dd_prime Size = 2157720 bytes
-  [Enc] Run Time = 82136589 us
-  [Enc] C_0 Size = 412152 bytes, C_1 Size = 411464 bytes, C_2 Size = 411464 bytes, C_3 Size = 411464 bytes, C_4 Size = 411464 bytes, C_1_i Size = 431544 bytes, C_2_i Size = 431544 bytes, C_3_i Size = 424744 bytes, C_4_i Size = 424744 bytes, C_5_i Size = 424744 bytes
-  [Dec] Run Time = 981147 us
+  [Enc] Run Time = 66721936 us
+  [Enc] C_0 Size = 412160 bytes, C_1 Size = 411464 bytes, C_2 Size = 411464 bytes, C_3 Size = 411464 bytes, C_4 Size = 411464 bytes, C_1_i Size = 431544 bytes, C_2_i Size = 431544 bytes, C_3_i Size = 424744 bytes, C_4_i Size = 424744 bytes, C_5_i Size = 424744 bytes
+  [Dec] Run Time = 781357 us
 ---------------------------- d = 50 ----------------------------
   ------------------------ [n = 50] ------------------------  
-  [EKGen] Run Time = 21422021 us
-  [EKGen] E_i Size = 429096 bytes, e_i Size = 429112 bytes
-  [DKGen] Run Time = 87048915 us
-  [DKGen] Dd Size = 2145360 bytes, Dd_prime Size = 2145600 bytes
-  [Enc] Run Time = 64932186 us
-  [Enc] C_0 Size = 413088 bytes, C_1 Size = 412384 bytes, C_2 Size = 412384 bytes, C_3 Size = 412384 bytes, C_4 Size = 412384 bytes, C_1_i Size = 429088 bytes, C_2_i Size = 429120 bytes, C_3_i Size = 429120 bytes, C_4_i Size = 429128 bytes, C_5_i Size = 429104 bytes
-  [Dec] Run Time = 1232381 us
+  [EKGen] Run Time = 16809434 us
+  [EKGen] E_i Size = 428144 bytes, e_i Size = 428144 bytes
+  [DKGen] Run Time = 68617819 us
+  [DKGen] Dd Size = 2140720 bytes, Dd_prime Size = 2140720 bytes
+  [Enc] Run Time = 50451465 us
+  [Enc] C_0 Size = 412152 bytes, C_1 Size = 411464 bytes, C_2 Size = 411464 bytes, C_3 Size = 411464 bytes, C_4 Size = 411464 bytes, C_1_i Size = 428144 bytes, C_2_i Size = 428144 bytes, C_3_i Size = 428144 bytes, C_4_i Size = 428144 bytes, C_5_i Size = 428144 bytes
+  [Dec] Run Time = 882329 us
   ------------------------ [n = 60] ------------------------  
-  [EKGen] Run Time = 31330553 us
-  [EKGen] E_i Size = 434704 bytes, e_i Size = 434664 bytes
-  [DKGen] Run Time = 114726973 us
-  [DKGen] Dd Size = 2173200 bytes, Dd_prime Size = 2173680 bytes
-  [Enc] Run Time = 81560548 us
-  [Enc] C_0 Size = 415144 bytes, C_1 Size = 414440 bytes, C_2 Size = 414440 bytes, C_3 Size = 414440 bytes, C_4 Size = 414448 bytes, C_1_i Size = 434688 bytes, C_2_i Size = 434672 bytes, C_3_i Size = 431256 bytes, C_4_i Size = 431280 bytes, C_5_i Size = 431288 bytes
-  [Dec] Run Time = 1055126 us
+  [EKGen] Run Time = 24986391 us
+  [EKGen] E_i Size = 431544 bytes, e_i Size = 431544 bytes
+  [DKGen] Run Time = 100907515 us
+  [DKGen] Dd Size = 2157720 bytes, Dd_prime Size = 2157720 bytes
+  [Enc] Run Time = 68196479 us
+  [Enc] C_0 Size = 412152 bytes, C_1 Size = 411464 bytes, C_2 Size = 411464 bytes, C_3 Size = 411464 bytes, C_4 Size = 411464 bytes, C_1_i Size = 431544 bytes, C_2_i Size = 431544 bytes, C_3_i Size = 428144 bytes, C_4_i Size = 428144 bytes, C_5_i Size = 428144 bytes
+  [Dec] Run Time = 935247 us
